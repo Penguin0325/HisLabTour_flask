@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/titleback.png);
+    background-position: center top;
+}
+.logo{
+    display: block;
+    width: 13cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn_a{
+    font-size: 80px;
+    color:#fff;
+	text-decoration:none;
+	padding:5px;
+	border:1px solid #fff;
+}
+
+/* .btn_a{
+    bottom: auto;
+    right: auto;
+    margin: auto;
+    position: absolute;
+} */
+
+/* .btn_img_dev{
+    display: flex;
+    justify-content: center;
+}
+.btn_img{
+    align-self: flex-start;
+    width: 3cm;
+} */
+
+@media screen and (max-width:480px) {
+	/*スマホ用*/
+    .logo_div{
+        width: 100%;
+        height: 100vh;
+    }
+    .logo{
+        width: 9cm;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+    }
+    /* .btn_img_dev{
+        display: flex;
+        justify-content: center;
+    }
+    .btn_img{
+        align-self: center;
+        width: 3cm;
+    } */
+    
+}

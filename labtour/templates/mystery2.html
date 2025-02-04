@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskアプリケーション</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style/story.css') }}">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/static/images/logo.png">
+    </header>
+    <div class="main_body">
+        <h2>謎2</h2>
+        <p>20240130という映像にアクセスするとガサついたモノクロ映像が表示され，画面に大きく「エラー」と表示された．</p>
+        <p>青野「お？エラーが見つかったね！これも修正しちゃおう！」</p>
+        <p></p>
+        
+        <div class="story_in_image">
+            <img class="mystery1_img" src="/static/images/mystery2.png">
+        </div>
+        <p>謎が解けたらQRコードをスキャンして先に進もう！</p>
+        
+    </div>
+    <!-- 次 movie_0130.html-->
+    
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>

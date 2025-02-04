@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskアプリケーション</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style/story.css') }}">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/static/images/logo.png">
+    </header>
+    <div class="main_body">
+        <!-- <h2>注意事項！</h2> -->
+        <p>異変を感じ視線を向ける</p>
+        <p>死体のそばにあったノートPCの画面が点灯しているようだ</p>
+        <p>青野「なんで菜野香ちゃんのパソコンが？・・・ってこれ研究室の定点映像？」</p>
+        
+        <div class="story_in_image">
+            <img class="pc_img" src="/static/images/pc.png">
+        </div>
+        <p>ノートPCを操作しようとすると画面に文字が表示された</p>
+        <p></p>
+        <p>「この画面が出てる頃には私には何かよくないないことがおきているはずこれを見つけた人に頼みたいことがあるの</p>
+        <p>私の作ったプログラムを使って過去に干渉して欲しい，そして私を助けて」</p>
+        <p></p>
+        <p>青野「よくわからないプログラム作ってたけどこれのことだったの・・・？！というか過去に干渉って何？！</p>
+        <p>よくわからないけどとりあえず研究室の定点映像が見れるみたいだね．</p>
+        <p>このボタンで日付と時間が指定できそう！</p>
+        <p>ってことは菜野香ちゃんが倒れた時も見れるかも！？</p>
+        <p>先輩はプログラムを操作して，少しづつ時間を遡っていった，</p>
+        <p>事件の真相を知るため，自分も一緒に映像を見ることにした．</p>
+    </div>
+    <a class="btn_a" href="/intro_story4">次へ</a>
+    
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>

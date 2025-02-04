@@ -1,0 +1,125 @@
+body {
+    background-image: url(../images/background.png);
+    background-position: center top;
+}
+
+header{
+    background-image: url(../images/header.png);
+    background-position: center top;
+}
+
+.logo{
+    display: block;
+    width: 8cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_body{
+    background-image: url(../images/paper2.png);
+    background-position: center top;
+    margin: 10px;
+    
+}
+
+h2{
+    padding: 7px;
+}
+p{
+    padding: 7px;
+}
+
+.aono{
+    background-color: blue;
+    color: #fff;
+    font-size: 30px;
+    margin: 7px;
+}
+.aiguchi{
+    background-color: #223a70;
+    color: #fff;
+    font-size: 30px;
+    margin: 7px;
+}
+.akamathu{
+    background-color: red;
+    color: #fff;
+    font-size: 30px;
+    margin: 7px;
+}
+.ouda{
+    background-color: yellow;
+    color: #000;
+    font-size: 30px;
+    margin: 7px;
+}
+.kaneda{
+    background-color: #f39800;
+    color: #000;
+    font-size: 30px;
+    margin: 7px;
+}
+.ginnbayashi{
+    background-color: #c0c0c0;
+    color: #000;
+    font-size: 30px;
+    margin: 7px;
+}
+.kuroda{
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    margin: 7px;
+}
+.shizuya{
+    background-color: #4c2c74;
+    color: #fff;
+    font-size: 30px;
+    margin: 7px;
+}
+.sirogaki{
+    background-color: #fff;
+    color: #000;
+    font-size: 30px;
+    margin: 7px;
+}
+.touma{
+    background-color: #c0c0c0;
+    color: #000;
+    font-size: 30px;
+    margin: 7px;
+}
+.midorikawa{
+    background-color: #ec8810;
+    color: #000;
+    font-size: 30px;
+    margin: 7px;
+}
+.momoi{
+    background-color: #ffb6c1;
+    color: #000;
+    font-size: 30px;
+    margin: 7px;
+}
+
+.pc_img{
+    display: block;
+    width: 8cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_a{
+    font-size: 60px;
+    color:#000;
+	text-decoration:none;
+	padding:5px;
+	border:1px solid #000;
+    /* text-align: center; */
+}
+
+@media screen and (max-width:480px) {
+	/*スマホ用*/
+    
+    
+}

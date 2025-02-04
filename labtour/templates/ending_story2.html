@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskアプリケーション</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style/story.css') }}">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/static/images/logo.png">
+    </header>
+    <div class="main_body">
+        <!-- <h2>注意事項！</h2> -->
+        <p>画面の中で一人になった藍口がこちらを見てニコニコしながら手を振ってきた</p>
+        <p>製作者にはこの音の存在がわかっているようだ</p>
+        <p>事件発生時刻になっても何も起きない．事件は防げたようだ．</p>
+        <p>達成感と安心感で気が抜けたのだろうか，だんだん意識が遠のいていった・・・</p>
+        
+    </div>
+    <a class="btn_a" href="/ending_story3">次へ</a>
+    
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>

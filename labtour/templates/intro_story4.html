@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskアプリケーション</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style/story.css') }}">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/static/images/logo.png">
+    </header>
+    <div class="main_body">
+        <!-- <h2>注意事項！</h2> -->
+        <p>映像を見ているとガサついたモノクロの映像が表示され，画面に大きく「エラーと表示された」</p>
+        
+        <div class="story_in_image">
+            <img class="pc_img" src="/static/images/mystery00.jpg">
+            <p>？？？</p>
+        </div>
+        <div class="story_in_image">
+            <img class="pc_img" src="/static/images/mystery30.png">
+            <p>謎0の破片</p>
+        </div>
+        <p>青野「えっ，エラー！？うそ・・・私プログラミング苦手で直せないのに・・・そうだ！君，このエラー直せたりしない？」</p>
+        <p>先輩は振り向いてこっちを見る．エラーを見る限り直せる気配はない．複雑そうなエラーだ</p>
+        
+    </div>
+    <a class="btn_a" href="/intro_story5">次へ</a>
+    
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>

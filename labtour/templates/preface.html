@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskアプリケーション</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style/story.css') }}">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/static/images/logo.png">
+    </header>
+    <div class="main_body">
+        <h2>注意事項！</h2>
+        <p>・まだ事前アンケートを行なっていない方はそちらを先に行なってください</p>
+        <p>・謎の答えは全て研究室内にあります</p>
+        <p>・他の人がいる場合は，大きな声で答えを口に出さないなどネタバレへの配慮をお願いします</p>
+        <p>・指示がない限り，戸棚や箱は開けないでください</p>
+        <p>・罪対策としてヒントページへのQRを用意してあります，使用したい人は先輩に聞いてください</p>
+        <p>・本当に答えがわからなくなった場合は部屋にいる先輩に聞いてください，ほぼ答えみたいなヒントを出します</p>
+    </div>
+    <a class="btn_a" href="/intro_story1">次へ</a>
+    
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>

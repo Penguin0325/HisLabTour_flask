@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskアプリケーション</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style/story.css') }}">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/static/images/logo.png">
+    </header>
+    <div class="main_body">
+        <h2>タイトル：20230711</h2>
+        <p>青野「わ〜チーム開発の発表の時だ〜」</p>
+        <p>映像を見る限り何だか眠そうなチームと元気なチームがある．元気度の差が激しい</p>
+        <p>青野「2チームは開発が終わらなくて前日徹夜してたんだ〜私も寝るの遅かったな〜」</p>
+    </div>
+    <a class="btn_a" href="/movie_0725">次へ</a>
+    
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>

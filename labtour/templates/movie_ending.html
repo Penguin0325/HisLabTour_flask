@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskアプリケーション</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style/story.css') }}">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/static/images/logo.png">
+    </header>
+    <div class="main_body">
+        <h2>タイトル：2024????</h2>
+        <p>表示された映像は，白垣がARグラスの箱を手から滑らせ，藍口の頭に直撃させる瞬間だった</p>
+        <p>藍口がふらつき倒れる</p>
+        <p>白垣の顔がだんだんと青くなっていく</p>
+        <p>あわてた白垣はARグラスの箱を隠し，研究室を飛び出して行った</p>
+    </div>
+    <a class="btn_a" href="/ending_story1">次へ</a>
+    
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>

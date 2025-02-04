@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/background.png);
+    background-position: center top;
+}
+
+header{
+    background-image: url(../images/header.png);
+    background-position: center top;
+}
+
+.logo{
+    display: block;
+    width: 8cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_body{
+    background-image: url(../images/paper2.png);
+    background-position: center top;
+    margin: 10px;
+    
+}
+
+h2{
+    padding: 7px;
+}
+p{
+    padding: 7px;
+}
+
+
+.pc_img{
+    display: block;
+    width: 8cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mystery1_img{
+    display: block;
+    width: 8cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_a{
+    font-size: 60px;
+    color:#000;
+	text-decoration:none;
+	padding:5px;
+	border:1px solid #000;
+    /* text-align: center; */
+}
+
+@media screen and (max-width:480px) {
+	/*スマホ用*/
+    
+    
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskアプリケーション</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style/story.css') }}">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/static/images/logo.png">
+    </header>
+    <div class="main_body">
+        <!-- <h2>注意事項！</h2> -->
+        <p>青野「これで見れる映像は全部かな</p>
+        <p>出てきたエラーは直したし，今なら事件発生時のエラーも直せるようになってるかも！もう一回見てみようか！」</p>
+        <p>先輩の言葉に頷き，もう一度事件発生時の映像を表示させた</p>
+        <p>相変わらずエラーは出るが，前よりも見えるものが多い</p>
+        <p>これならエラーも直せそうだ</p>
+    </div>
+    <a class="btn_a" href="/mystery3">次へ</a>
+    
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>

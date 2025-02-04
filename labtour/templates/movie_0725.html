@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskアプリケーション</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style/story.css') }}">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/static/images/logo.png">
+    </header>
+    <div class="main_body">
+        <h2>タイトル：20230725</h2>
+        <p>夏頃の映像だ．空気が凍っているのを映像越しに感じる．</p>
+        <p>何の映像なのか気になり，先輩に聞いてみる</p>
+        <p>青野「夏休みの学習計画の発表の時だね！夏休みの期間を使って，これから先の研究や制作に向けて力をつけていこう！ってやつだったんだけどかなり大変だったな〜</p>
+        <p>自分で1から何を学習するのか決めて，何を作るかまで発表する必要があったから色々調べる必要もあったし．</p>
+        <p>でもこれのおかげで夏休みを無駄にすることはなかったよ！人それぞれついた力に差はあっても自力で1から計画書を作るのは良い経験だったと思うよ！」</p>
+    </div>
+    <a class="btn_a" href="/movie_1128">次へ</a>
+    
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>
